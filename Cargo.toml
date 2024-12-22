@@ -1,0 +1,11 @@
+[package]
+name = "ocl-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.94"
+opencl3 = "0.10.0"
+png = "0.17.16"
+tracing = "0.1.41"
+tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
